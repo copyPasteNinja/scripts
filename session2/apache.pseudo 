@@ -1,0 +1,25 @@
+START 
+
+Step 1 - Check if apache is installed in our system
+    IF YES
+    Continue
+    IF NO
+        Install apache
+
+Step 2 - Setup Apache
+    Start Apache 
+    Enable Apache
+    Check if apache is running
+    IF status is running 
+        print "Apache Status Active"
+        redirect Message + Date & Time to apache_log.log
+    IF status not running 
+        print "Apache failure"
+        redirect Error + Date & Time to apache_error.log
+
+Step 3 - Setup index.html for public view
+    Create index.html under apache httpd directory
+    Insert HTML content into index.html
+    Restart Apache
+
+END

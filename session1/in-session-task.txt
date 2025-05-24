@@ -1,0 +1,7 @@
+
+1. Create a script that takes an positional arugment of file name
+2. Give file +x permissions 
+3. Exit script
+4. If positional arugment not given
+   3A:  prompt for a file name
+5. Give file +x permissions
