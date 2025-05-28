@@ -5,72 +5,80 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>CopyPasteNinja | DevOps Engineer</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      color: #333;
       margin: 0;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    h1 {
-      font-size: 2.8rem;
-      color: #2c3e50;
-    }
-
-    p {
-      font-size: 1.2rem;
-      max-width: 700px;
-      margin: 20px auto;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #fdfdfd;
+      color: #222;
       line-height: 1.6;
     }
 
-    section {
-      margin-top: 40px;
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #111;
     }
 
     h2 {
-      font-size: 1.6rem;
-      color: #34495e;
+      font-size: 1.4rem;
+      margin-top: 40px;
+      color: #444;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 5px;
+    }
+
+    p {
+      margin: 15px 0;
+      font-size: 1.05rem;
+      color: #333;
+    }
+
+    .highlight {
+      color: #007acc;
+      font-weight: bold;
     }
 
     footer {
       margin-top: 60px;
-      color: #888;
       font-size: 0.9rem;
+      color: #777;
+      text-align: center;
     }
   </style>
 </head>
 <body>
-  <h1>Hi, I'm CopyPasteNinja</h1>
-  <p>
-    A DevOps, Backend, and Software Engineer—driven by curiosity and a little bit of coffee.<br>
-    I enjoy building scalable systems, automating processes, and simplifying complex workflows.
-  </p>
+  <div class="container">
+    <h1>CopyPasteNinja</h1>
+    <p><span class="highlight">DevOps | Backend | Software Engineer</span></p>
+    <p>Driven by curiosity and just the right amount of coffee, I build systems that solve real problems — efficiently, securely, and at scale.</p>
 
-  <section>
+    <h2>What I'm Building</h2>
+    <p>
+      Currently building a <strong>portfolio app</strong> integrated with LLM models that answers questions about my work and experience, using only the content of my portfolio.<br />
+      Hosted on AWS, it uses <strong>HappyFace</strong> and native <strong>Bedrock services</strong> to demonstrate real-world, production-ready deployment of AI workflows.
+    </p>
+
     <h2>Side Projects</h2>
     <p>
-      I'm currently building a portfolio app integrated with LLM models to answer questions<br>
-      based entirely on the content of my portfolio and personal background.<br>
-      It's hosted in AWS using <strong>HappyFace</strong> and native Bedrock services.<br>
-      A blend of tech, AI, and infrastructure—tailored to tell my story.
+      I designed and installed a <strong>solar-powered system</strong> for my backyard shed using 4 panels. It powers my tools and lighting setup, a small step toward sustainable engineering.
     </p>
-  </section>
-
-  <section>
-    <h2>Life Outside the Terminal</h2>
     <p>
-      When I'm not writing code, I'm out in nature—tending my vegetable garden<br>
-      or caring for my backyard chickens. I find peace in slow living and green spaces.<br><br>
-      I'm also passionate about clean energy. I've built a solar-powered shed using 4 panels<br>
-      that now run my tools and lights—proving that good engineering starts at home.
+      I also enjoy working with nature. I grow vegetables and raise backyard chickens—an ongoing experiment in self-reliance and patience.
     </p>
-  </section>
 
-  <footer>
-    &copy; 2025 CopyPasteNinja — Powered by GitHub Pages
-  </footer>
+    <footer>
+      &copy; 2025 CopyPasteNinja — Built with HTML/CSS | Hosted on GitHub Pages
+    </footer>
+  </div>
 </body>
 </html>
