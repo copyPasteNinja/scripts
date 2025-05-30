@@ -1,3 +1,5 @@
 #!/bin/bash 
 
-## Just a test to perform git pull
+## Testing secret detection
+
+export TOKEN="asdfjoiwefnweoifqoi13rningf32inngqoi3bn"
